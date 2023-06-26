@@ -1,0 +1,124 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: grey;
+}
+nav,ul{
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	color: yellow;
+	padding: 20px;
+}
+nav a:hover{
+	text-decoration: underline;
+} 
+.hero{
+	background-color: lightgrey;
+	padding: 60px;
+	text-align: center;
+}
+.hero-content{
+	font-size: 18px;
+	color:blue;
+	margin-bottom: 30px
+}
+.hero-content h2{
+	font-size: 30px;
+}
+footer{
+	background-color: green;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+footer h3{
+	font-size: 14px;
+}
+footer p{
+	color: white;
+}
+.product{
+	display: inline-block;
+	width: 30%;
+	margin: 20px;
+	padding: 20px;
+	background-color: #f3f3f3f3;
+	border-radius: 5px;
+	text-align: center;
+}
+.product img{
+	max-width: 50%;
+	display: block;
+	height:auto;
+	margin: 0 auto;
+	border:1px solid auto;
+	box-shadow: 2px 4px rgba(0,0,0,0.1);
+}
+.products{
+	padding: 10px;
+}
+.products h2{
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.product video{
+	max-width: 70%;
+	display: block;
+	height:auto;
+	margin: 0 auto;
+	border:1px solid auto;
+	box-shadow: 2px 4px rgba(0,0,0,0.1);
+}
+.about{
+	background-color: #f8f8f8;
+	padding: 60px 20px;
+	text-align: center;
+}
+.about p{
+	font-size: 18px;
+	color: #777;
+	margin-bottom: 30px;
+}
+.about h2{
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.btn{
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+}
+form{
+	display: grid;
+	grid-gap: 10px;
+}
+input[type="Submit"]{
+	padding: 10px 20px;
+	background-color: #333;
+	cursor: pointer;
+	width: 100px;
+}
+.contact{
+	max-width: 800px;
+	margin:50px;
+	padding: 20px;
+}
+input[type="name"],
+input[type="email"],
+textarea{
+	width: 100%;
+	padding: 10px;
+	border:1px solid black;
+	border-radius: 5px;
+}
